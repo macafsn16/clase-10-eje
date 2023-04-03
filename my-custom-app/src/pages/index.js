@@ -2,8 +2,7 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Button from './componente/button'
-import Card from './componente/card'
-import cardgroud from './componente/cardgroup.js'
+import Cardgroud from './componente/cardgroup.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +21,7 @@ export default function Home() {
         <br></br>
         <Button></Button>
         <div className='cardgroup'>
-            <cardgroud> </cardgroud> 
+          <Cardgroud></Cardgroud>
         </div>
       </main>
     </>

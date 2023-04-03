@@ -1,7 +1,7 @@
 import fullData from "../data/data.js";
 import Card from "./card.js";
 
-export default function cardgroud() {
+export default function Cardgroup() {
     
     return (
 
